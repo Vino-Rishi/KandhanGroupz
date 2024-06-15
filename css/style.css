@@ -8487,6 +8487,17 @@ h1, h2, h3, h4, h5,
       @media (max-width: 767.98px) {
         .owl-carousel.home-slider .owl-dots {
           bottom: 5px; } }
+      @media (max-width:480px){
+        .owl-carousel.home-slider {
+          height: 250px;
+        }
+        .owl-carousel.home-slider .slider-item {
+          height: 250px;
+        }
+        .owl-carousel.home-slider .slider-item .slider-text {
+          height: 250px;
+        }
+      }
       .owl-carousel.home-slider .owl-dots .owl-dot {
         width: 10px;
         height: 10px;
